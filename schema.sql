@@ -9,7 +9,8 @@ CREATE TABLE tax_info (
 zip_code VARCHAR,
 state VARCHAR,
 adjusted_gross_income INT,
-tax_bracket VARCHAR);
+tax_bracket VARCHAR,
+FOREIGN KEY (zip_code) REFERENCES us_zips(zip_code));
 
 SELECT * FROM us_zips
 JOIN tax_info
