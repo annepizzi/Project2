@@ -25,13 +25,15 @@ can match the foreign key of zip code for the IRS tax return data.
 -IRS Tax Returns: Zip code, State, City, Population Density, Population 
 2) Rename columns and drop duplicates and drop index
 
-
 # Create SQL Database
 1) Create new database in SQL
+2) Create tables for Population Density and for IRS Tax Returns
 
 # Connect Database
-Population and population density data per zip code from: https://simplemaps.com/data/us-zips.
-Data located in 'Resources/uszips.csv'.
+1) Connected SQL Database to python by creating a string for
+2) 
+3) Population and population density data per zip code from: https://simplemaps.com/data/us-zips.
+4) Data located in 'Resources/uszips.csv'.
 
 
 - Drop any null values from the datasets
