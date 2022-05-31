@@ -11,7 +11,9 @@ Group Members: Zach Meader, Anne Pizzini, Joshua Yesufu, Ellen Grove
 # Background
 We chose these data sets because the ability to join them will be straightforward 
 given we have a primary key of zip code for the population density data table that 
-can match the foreign key of zip code for the IRS tax return data.
+can match the foreign key of zip code for the IRS tax return data. In addition, we 
+contemplated what sort of analysis could be done based on the tables in this database
+and thought that interesting insights could be distilled relating to income, tax bracket, zip code, and the population density within a zip code.
 
 # Extract Process
 
@@ -23,7 +25,8 @@ can match the foreign key of zip code for the IRS tax return data.
 1) Create lists to hold values for Population Density and for IRS Tax Returns based on selected columns
 - Population Density: Zip code, State, Adjusted Gross Income, AGI Stub 
 - IRS Tax Returns: Zip code, State, City, Population Density, Population 
-2) Rename columns and drop duplicates and drop index
+2) Identify zip codes within the Tax Returns dataset not present within the Population Density dataset and add zip codes to Population Density dataset (in order to capture all data and avoid primary key errors)
+3) Rename columns and drop duplicates and drop index
 
 # Create SQL Database
 1) Create new database in SQL
@@ -37,4 +40,4 @@ can match the foreign key of zip code for the IRS tax return data.
 
 # Finish Data Cleaning in SQL
 1) Join tables in SQL on zip codes
-2) Find Zip Codes unmapped and remove them
+2) Find Zip Codes unmapped and add them to population density table
