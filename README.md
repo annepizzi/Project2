@@ -17,13 +17,23 @@ and thought that interesting insights could be distilled relating to income, tax
 
 # Set-up
 Install PGAdmin and PostgreSQL.
-1. To install PGAdmin, visit https://www.pgadmin.org/download/ and follow prompts.
-2. To install PostreSQL, first make sure to have the Homebrew installed (https://brew.sh/) (Note: For PCs the installation of Homebrew is not necessary). Once
+
+Mac Installation Instructions:
+
+1. To install PGAdmin, visit https://www.pgadmin.org/download/ and follow prompts. 
+2. To install PostreSQL, first make sure to have the Homebrew installed (https://brew.sh/). Once
 Homebrew is installed, run the following commands to complete PostgreSQL installation:
 - brew install postgresql
 - brew services start postgres
 3. See "Create SQL Database" step for information on creating the database using PostgreSQL and
 PGAdmin and "Connect Database" step to connect Python script to database. Database schema located in schema.sql.
+
+PC Installation Instructions:
+
+1. To install PGAdmin, visit https://www.pgadmin.org/download/pgadmin-4-windows/ and follow prompts.
+2. See "Create SQL Database" step for information on creating the database using PostgreSQL and
+PGAdmin and "Connect Database" step to connect Python script to database. Database schema located in schema.sql.
+
 
 # Extract Process
 1) Imported Dependencies for Pandas and SQLAlchemy
