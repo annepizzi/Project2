@@ -18,7 +18,7 @@ and thought that interesting insights could be distilled relating to income, tax
 # Set-up
 Install PGAdmin and PostgreSQL.
 1. To install PGAdmin, visit https://www.pgadmin.org/download/ and follow prompts.
-2. To install PostreSQL, first make sure to have the Homebrew installed (https://brew.sh/). Once
+2. To install PostreSQL, first make sure to have the Homebrew installed (https://brew.sh/) (Note: For PCs the installation of Homebrew is not necessary). Once
 Homebrew is installed, run the following commands to complete PostgreSQL installation:
 - brew install postgresql
 - brew services start postgres
